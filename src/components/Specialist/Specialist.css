@@ -1,0 +1,43 @@
+.specialist_item_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.specialist_heading p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.item_card {
+  width: 228px;
+  height: 248px;
+  background: linear-gradient(
+    136.23deg,
+    #e2efff -31.67%,
+    rgba(255, 255, 255, 0) 126.56%
+  );
+  border: 1px solid #91d5ff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.item_card p {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 21px;
+}
+@media only screen and (max-width: 600px) {
+  .specialist_item_box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .specialist_heading p {
+    padding-top: 350px;
+  }
+}

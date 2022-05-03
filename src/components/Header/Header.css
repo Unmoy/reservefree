@@ -1,0 +1,122 @@
+.header_screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+  width: 90vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header_left {
+  margin: 0 50px;
+  padding-bottom: 80px;
+}
+.header_left h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  letter-spacing: 0.02em;
+}
+.header_left p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.header_right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+}
+
+.doctorImage2 {
+  position: absolute;
+  left: -43px;
+  top: 37px;
+}
+.doctorImage3 {
+  position: relative;
+  left: -32px;
+  top: 42px;
+  padding-bottom: 20px;
+}
+.doctorImage1 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.header_bottom {
+  position: absolute;
+  width: 90%;
+  bottom: 25%;
+  padding-left: 20px;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  border: 1.5px solid #91d5ff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.06);
+  z-index: 99;
+}
+.searchInput_1 input[type="text"] {
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+}
+.searchInput_1 input[type="text"]::placeholder {
+  color: #abacae;
+}
+.icon_color {
+  color: #1472e5;
+  margin-right: 5px;
+}
+.locate_btn {
+  border: 1px solid #1472e5;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #fff;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+.calender span {
+  color: #abacae;
+}
+.search_btn2 {
+  background: #1472e5;
+  border-radius: 0px 4px 4px 0px;
+  color: #fff;
+  height: 100%;
+  border: none;
+  padding: 0 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .header_screen {
+    flex-direction: column;
+  }
+  .header_left {
+    margin: 0 50px;
+    padding-bottom: 50px;
+  }
+  .header_right {
+    margin-left: 150px;
+  }
+  .header_bottom {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    left: 5%;
+    bottom: -36%;
+  }
+}
