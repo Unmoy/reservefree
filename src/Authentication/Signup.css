@@ -1,27 +1,13 @@
-.signup_google {
-  border: 2px solid blue;
-  border-radius: 4px;
-  padding: 8px 15px;
-  text-align: center;
-  font-size: 15px;
-  color: #000;
-  text-transform: capitalize;
-  font-weight: 500;
-  background: transparent;
-  margin-top: 20px;
-  cursor: pointer;
-  font-family: "Inter", sans-serif;
-}
 .signup_page {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  background-color: #f3faff;
+  height: 90vh;
+  background-color: #000;
 }
-.singin_error {
-  color: red;
-  font-family: "Inter", sans-serif;
-  margin-top: 20px;
+.signup_box {
+  padding: 20px;
+  background: #f7f8f9;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
 }

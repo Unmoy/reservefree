@@ -1,8 +1,8 @@
 import React from "react";
-import icon1 from "../../assets/images/s1.png";
-import icon2 from "../../assets/images/s2.png";
-import icon3 from "../../assets/images/s3.png";
-import icon4 from "../../assets/images/s4.png";
+import icon1 from "../../assets/images/s1.svg";
+import icon2 from "../../assets/images/s2.svg";
+import icon3 from "../../assets/images/s3.svg";
+import icon4 from "../../assets/images/s4.svg";
 import ItemCard from "./ItemCard";
 const itemsList = [
   { id: 1, title: "Critical Care", icon: icon1 },
@@ -12,7 +12,7 @@ const itemsList = [
 ];
 const Specialist = () => {
   return (
-    <div>
+    <div className="specialist_wrapper">
       <div className="specialist_heading">
         <p>Top-searched specialties</p>
       </div>

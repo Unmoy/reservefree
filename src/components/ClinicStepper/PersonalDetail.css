@@ -1,0 +1,82 @@
+.personal_detail_form {
+  padding: 40px 0;
+}
+.personal_detail_form h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.personal_screen p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  color: #b7b7b7;
+  text-align: center;
+}
+.personal_detail_form label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #b7b7b7;
+  margin-bottom: 10px;
+}
+.personal_detail_box {
+  padding: 20px;
+  width: 450px;
+}
+.stepper_input {
+  padding: 7px;
+  border: 1px solid #a4a4a4;
+  border-radius: 4px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #232526;
+}
+.stepper_input:focus {
+  outline: 1px solid #194af5;
+}
+.stepper_input.icon1 {
+  background: url("../../assets/images/login_user.png") no-repeat;
+  background-size: 20px;
+  background-position: 16px 10px;
+  background-color: #fff;
+}
+.stepper_input.icon2 {
+  background: url("../../assets/images/phone.png") no-repeat;
+  background-size: 20px;
+  background-position: 16px 10px;
+  background-color: #fff;
+}
+.stepper_input.icon3 {
+  background: url("../../assets/images/mail.png") no-repeat;
+  background-size: 20px;
+  background-position: 16px 12px;
+  background-color: #fff;
+}
+.stepper_input.icon4 {
+  background: url("../../assets/images/speciality.png") no-repeat;
+  background-size: 20px;
+  background-position: 16px 10px;
+  background-color: #fff;
+}
+.stepper_input5 {
+  padding: 8px;
+  border: 1px solid #a4a4a4;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #232526;
+}

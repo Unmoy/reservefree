@@ -19,10 +19,10 @@ const Signup = () => {
   };
   return (
     <div className="signup_page">
-      <button className="signup_google" onClick={handlegoogle}>
-        SignUp with Google
-      </button>
-      <p className="singin_error">{error}</p>
+      <div className="signup_box">
+        <h3 className="signup_header">Login/Signup</h3>
+        <p>One step away to confirm your appointment</p>
+      </div>
     </div>
   );
 };

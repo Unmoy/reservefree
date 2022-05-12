@@ -3,7 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
   font-family: "Inter", sans-serif;
+}
+.route_link {
+  color: #fff;
+  text-decoration: none;
+}
+.route_link:hover {
+  color: #fff;
 }
