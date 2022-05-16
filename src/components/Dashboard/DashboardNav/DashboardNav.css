@@ -1,0 +1,55 @@
+.dashboard_nav {
+  display: block;
+  padding: 30px 50px;
+  position: sticky;
+  top: 0;
+  background: #f6f6f7;
+}
+
+.search--box {
+  display: inline-block;
+  width: 65%;
+}
+
+.search--bar {
+  padding: 16px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 0.5em;
+  background: #ffffff;
+  display: table;
+  width: 100%;
+}
+
+.search--icon {
+  height: 1.4em;
+  width: 1.4em;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.search--text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #858585;
+  outline: none;
+  border: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header--icon {
+  height: 28px;
+  margin: 10px 16px;
+  float: right;
+  cursor: pointer;
+}
+
+.user--icon {
+  height: 40px;
+  margin: 4px 0 0 16px;
+  border-radius: 50%;
+  border: 1.5px solid #194af5;
+  float: right;
+  cursor: pointer;
+}

@@ -4,7 +4,8 @@ import image from "../../assets/images/d2.png";
 import "./DoctorCard.css";
 import directionicon from "../../assets/images/directionicon.png";
 import likeicon from "../../assets/images/likeicon.png";
-const DoctorCard = () => {
+const DoctorCard = ({ doctor }) => {
+  console.log(doctor);
   return (
     <div>
       {/* <Link to="#" className="doctor_card_link"> */}
@@ -17,8 +18,8 @@ const DoctorCard = () => {
           </div>
           <div className="col-sm-12 col-md-6">
             <div className="doctor_card_detail">
-              <h5 className="doctor_name mb-2">Dr. Krishnanand</h5>
-              <span className="mb-2">Orthopedist</span>
+              <h5 className="doctor_name mb-2">{doctor.name}</h5>
+              <span className="mb-2">{doctor.specialities}</span>
               <ul className="mb-2">
                 <li>Own Clinic</li>
               </ul>

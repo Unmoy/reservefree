@@ -9,11 +9,12 @@ import Specialist from "../Specialist/Specialist";
 const HomePage = () => {
   return (
     <>
+      <Navbar />
       <Header />
       <Specialist />
       <Doctors />
       <Listing />
-     
+      <Footer />
     </>
   );
 };

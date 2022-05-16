@@ -1,0 +1,103 @@
+.requests--container {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.requests--header {
+  padding: 20px;
+  border-bottom: 1px solid #e6ebed;
+}
+
+.requests--title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.requests--viewall {
+  color: #194af5;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  float: right;
+  margin: 6px 8px;
+  cursor: pointer;
+}
+
+.requests--body {
+  padding: 0 1em;
+}
+
+.request--card {
+  display: table;
+  width: 100%;
+  margin: 20px 5px;
+}
+
+.request--card--profile {
+  font-weight: 500;
+  font-size: 14px;
+  color: #5a6472;
+  background: #e6ebff;
+  border: 1px solid #f8f8f8;
+  width: 38px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.request--card--detials {
+  padding-left: 12px;
+  display: table-cell;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a9abad;
+}
+
+.request--card--name {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #232526;
+  margin-bottom: 5px;
+}
+
+.requests--card--buttons {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.requests--card-button--group {
+  float: right;
+  margin-right: 20px;
+}
+
+.requests--card--button {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  padding: 7px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.accept {
+}
+
+.decline {
+  background: #e6ebff;
+  margin-right: 1em;
+}
+.request--card--time {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  color: #5a6472;
+  background: #e6ebff;
+  border-radius: 13px;
+  padding: 5px 8px;
+  margin-left: 5px;
+}
